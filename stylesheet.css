@@ -5,6 +5,10 @@ element {
   float: left;
 }
 
+.right {
+  float: right;
+}
+
 .column {
   width: 50%;
   padding: 0 20px;
