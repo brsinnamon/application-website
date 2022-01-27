@@ -1,2 +1,18 @@
 element {
 }
+
+.left {
+  float: left;
+}
+
+.column {
+  width: 50%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#content {
+  font-family: 'Press Start 2P', cursive;
+  line-height: 180%;
+  font-weight: 300;
+}
