@@ -62,16 +62,16 @@ a:hover {
 
 @media only screen and (max-width: 800px)  {
 
-.column {
-	width: 100%;
-}
-.left {
-	float: none;
-}
+	.column {
+		width: 100%;
+	}
+	.left {
+		float: none;
+	}
 
-.right {
-	float: none;
-}
+	.right {
+		float: none;
+	}
 }
 
 .clear {
