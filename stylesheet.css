@@ -1,48 +1,87 @@
-element {
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Press+Start+2P&display=swap');
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.column {
-  width: 50%;
-  padding: 0 20px;
-  box-sizing: border-box;
+#content {
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Rubik', sans-serif;
+	line-height: 180%;
+	font-weight: 300;
+	padding: 20px 0;
 }
 
 #header {
-  padding: 0 20px;
-  box-sizing: border-box;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
-#content {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-family: 'Raleway', sans-serif;
-  line-height: 180%;
-  font-weight: 300;
-  padding: 20px 0;
+h1, h2, h3 {
+	font-weight: 400;
 }
 
 h2 {
-  font-size: ;
-  border-top: 1px solid #eeeeee;
-  padding-top: 40px;
-  margin-top: 40px;
-  color: #ff0033;
-  font-size: 30px;
+	font-size: ;
+	border-top: 1px solid #eeeeee;
+	padding-top: 40px;
+	margin-top: 40px;
+	color: #ff0033;
+	font-size: 30px;
+}
+
+h2.small {
+	font-size: 20px;
+	color: #555555;
+	text-transform: uppercase;
 }
 
 h3 {
-  margin-top: 30px;
-  color: #373B43;
-  font-size: 30px;
-  font-weight: 400;
+	margin-top: 30px;
+}
+
+.column {
+	width: 50%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+	color: #555555;
+	border-bottom: 1px solid #555555;
+}
+
+a:hover {
+	color: #ff0033;
+	border-bottom: 1px solid #ff0033;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+@media only screen and (max-width: 800px)  {
+
+.column {
+	width: 100%;
+}
+.left {
+	float: none;
+}
+
+.right {
+	float: none;
+}
+}
+
+.clear {
+	clear: both;
+}
+
+q:before, q:after {
+	content: ""
+}
+
+q {
+	font-style: italic;
 }
