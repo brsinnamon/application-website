@@ -18,9 +18,12 @@ element {
 }
 
 #content {
-  font-family: 'Lato', cursive;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Lato', sans-serif;
   line-height: 180%;
   font-weight: 300;
+  padding: 20px 0;
 }
 
 h3 {
