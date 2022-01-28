@@ -30,6 +30,15 @@ h1, h2 {
   font-weight: 400;
 }
 
+h2 {
+  font-size: ;
+  border-top: 1px solid #eeeeee;
+  padding-top: 40px;
+  margin-top: 40px;
+  color: #ff0033;
+  font-size: 30px;
+}
+
 h3 {
   border-top: 1px solid #eeeeee;
   padding-top: 40px;
