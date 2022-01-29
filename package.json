@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "music-website-template",
+  "version": "1.0.0",
+  "description": "sky orb music website template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brsinnamon/music-website-template.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/brsinnamon/music-website-template/issues"
+  },
+  "homepage": "https://github.com/brsinnamon/music-website-template#readme",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
