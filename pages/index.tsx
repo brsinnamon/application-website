@@ -51,15 +51,18 @@ const Home: NextPage = () => {
         ></Track>
 
         <h2>Free Music Asset Packs For Indie Games</h2>
+
         <p>
           The following tracks are released under a Creative Commons Attribution
           license and are free for you to download and use in your indie game!
           Download the license under each track.
         </p>
+
         <p>
           Every track in the pack is loopable and over 3 minutes long to set the
           atmospheric mood of your game. They will create an immersive
           experience for the player.{" "}
+
         </p>
 
         <Track
