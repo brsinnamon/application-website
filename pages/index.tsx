@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Track from "../components/Track";
 
 const Home: NextPage = () => {
   return (
@@ -24,32 +25,12 @@ const Home: NextPage = () => {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-          rel="stylesheet"
-        />
         <link rel="canonical" href="https://www.skyorbmusic.com" />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <div id="header">
-        <h1>SKY ORB MUSIC</h1>
+        <h1>SKY ORB: hello game music</h1>
         <p>Orchestral and electronica music composer for games.</p>
       </div>
 
@@ -57,102 +38,38 @@ const Home: NextPage = () => {
         <h2>Orchestral Tracks</h2>
         <p>My showreel soundtrack for RPG-style games.</p>
 
-        <h3>Battle Encounter I</h3>
-        <p>
-          <iframe
-            title="Battle encounter 1 example music track"
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169727778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          ></iframe>
-          {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-          </div> */}
-        </p>
+        <Track
+          title="Battle Encounter I"
+          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169727778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          download=""
+        ></Track>
 
-        <h3>Battle Encounter II</h3>
+        <Track
+          title="Battle Encounter II"
+          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1202495410&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          download=""
+        ></Track>
 
-        <p>
-          <iframe
-            title="Battle encounter 2 example music track"
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1202495410&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          ></iframe>
-          {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-          </div> */}
-        </p>
+        <h2>Free Music Asset Packs For Indie Games</h2>
 
-        <h2>Free Atmospheric Music For Indie Games</h2>
         <p>
           The following tracks are released under a Creative Commons Attribution
           license and are free for you to download and use in your indie game!
           Download the license under each track.
         </p>
 
-        <h3>Waterfall Ruins</h3>
         <p>
-          <iframe
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1251576133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          ></iframe>
-          {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-          </div> */}
+          Every track in the pack is loopable and over 3 minutes long to set the
+          atmospheric mood of your game. They will create an immersive
+          experience for the player.{" "}
+
         </p>
 
-        <p>
-          download <a href="">demo</a> | <a href="">loop</a> |{" "}
-          <a href="files/Sky_Orb_Free_Game_Music_License.txt">license</a>
-        </p>
-
-        <h3>Cave</h3>
-        <p>
-          <iframe
-            title="Cave example music track"
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169727778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          ></iframe>
-          {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-          </div> */}
-        </p>
-
-        <p>
-          download <a href="">demo</a> | <a href="">loop</a> |{" "}
-          <a href="files/Sky_Orb_Free_Game_Music_License.txt">license</a>
-        </p>
-
-        <h3>Town</h3>
-        <p>
-          <iframe
-            title="Town example music track"
-            width="100%"
-            height="166"
-            scrolling="no"
-            frameBorder="no"
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169727778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          ></iframe>
-          {/* <div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-          </div> */}
-        </p>
-
-        <p>
-          download <a href="">demo</a> | <a href="">loop</a> |{" "}
-          <a href="files/Sky_Orb_Free_Game_Music_License.txt">license</a>
-        </p>
+        <Track
+          title="Waterfall Ruins"
+          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1251576133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+          download=""
+        ></Track>
       </div>
 
       <div className="column right">
@@ -183,6 +100,16 @@ const Home: NextPage = () => {
           If you would like to get in touch with me about your project, I would
           be more than happy to chat about your vision and discuss how I can
           contribute. Big or small.
+        </p>
+
+        <h3>Who does your artwork?</h3>
+        <p>
+          I generate my own artwork using AI models. You can do the same thing
+          here:{" "}
+          <a href="https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457?usp=sharing#scrollTo=g7EDme5RYCrt">
+            generate your own images with artificial intelligence
+          </a>
+          .
         </p>
 
         <h3>How can I contact you?</h3>
