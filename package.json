@@ -2,6 +2,8 @@
   "name": "music-website-template",
   "version": "1.0.0",
   "private": true,
+  "description": "sky orb music website",
+  "main": "index.tsx",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,6 +14,10 @@
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brsinnamon/music-website-template.git"
   },
   "devDependencies": {
     "@types/node": "17.0.24",

@@ -62,7 +62,6 @@ const Home: NextPage = () => {
           Every track in the pack is loopable and over 3 minutes long to set the
           atmospheric mood of your game. They will create an immersive
           experience for the player.{" "}
-
         </p>
 
         <Track
