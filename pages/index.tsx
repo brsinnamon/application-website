@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Track from "../components/Track";
+import SubHeading from "../components/SubHeading";
 
 const Home: NextPage = () => {
   return (
@@ -10,7 +10,7 @@ const Home: NextPage = () => {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Web application testing site of apps mariners or maritime professionals."
+          content="Web application testing site of applications for mariners or maritime professionals."
         />
         <meta name="keywords" content="maritime, mariner, amsa" />
         <meta name="author" content="Brendan Sinnamon" />
@@ -34,91 +34,37 @@ const Home: NextPage = () => {
 
       <div id="header">
         <h1>AppMarine</h1>
-        <p>Helper tools for maritime operators and professionals.</p>
-        <p>No signing up, just tools you can use right now.</p>
+        <p>
+          Easy reference page with various tools for maritime professionals.
+        </p>
+        <p>
+          Developed throughout my career as a Mariner and shared here for your
+          use!
+        </p>
       </div>
 
       <div className="column left">
-        <h2>Orchestral Tracks</h2>
-        <p>My showreel soundtrack for RPG-style games.</p>
-
-        <Track
-          title="Battle Encounter I"
-          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1169727778&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          download=""
-        ></Track>
-
-        <Track
-          title="Battle Encounter II"
-          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1202495410&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          download=""
-        ></Track>
-
-        <h2>Free Music Asset Packs For Indie Games</h2>
-
-        <p>
-          The following tracks are released under a Creative Commons Attribution
-          license and are free for you to download and use in your indie game!
-          Download the license under each track.
-        </p>
-
-        <p>
-          Every track in the pack is loopable and over 3 minutes long to set the
-          atmospheric mood of your game. They will create an immersive
-          experience for the player.{" "}
-        </p>
-
-        <Track
-          title="Waterfall Ruins"
-          url="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1251576133&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
-          download=""
-        ></Track>
+        <h2>Calculators for Mariners</h2>
+        <p>Helper tools for mariners on the job.</p>
+        <a href="/SRACalculatorPage">
+          <SubHeading title="Safety Risk Assessment"></SubHeading>
+        </a>
+        <SubHeading title="Fuel Usage"></SubHeading>
+        <SubHeading title="Tide Percentage Springs"></SubHeading>
+        <h2>Useful References</h2>
+        <p>Quick reference links for mariners.</p>
+        <SubHeading title="COLREGS"></SubHeading>
+        <SubHeading title="Lights and Shapes Handy Billy"></SubHeading>
+        <SubHeading title="Current NAVAREA Warnings"></SubHeading>
       </div>
 
       <div className="column right">
-        <h2>Q&amp;A</h2>
-        <h3>
-          I&apos;d like to use your free music, how does this license work?
-        </h3>
-        <p>
-          Free tracks are released under Creative Commons. Attribute in your
-          game with <i>&ldquo;Brendan Sinnamon (skyorbmusic.com)&rdquo;</i>.
-        </p>
-        <p>
-          You are free to download, use and remix the free tracks any way you
-          like! Make sure to include the attribution in your game.
-        </p>
-        <p>
-          Get in touch with me if you do use it, I love hearing from game
-          developers who use my music (published or not).
-        </p>
-
-        <h3>Who are you?</h3>
-        <p>
-          My name is Brendan and I write music for games. I&apos;ve been writing
-          and studying music for a long time and I am inspired by the music of
-          RPG and indie games.
-        </p>
-        <p>
-          If you would like to get in touch with me about your project, I would
-          be more than happy to chat about your vision and discuss how I can
-          contribute. Big or small.
-        </p>
-
-        <h3>Who does your artwork?</h3>
-        <p>
-          I generate my own artwork using AI models. You can do the same thing
-          here:{" "}
-          <a href="https://colab.research.google.com/drive/1lx9AGsrh7MlyJhK9UrNTK8pYpARnx457?usp=sharing#scrollTo=g7EDme5RYCrt">
-            generate your own images with artificial intelligence
-          </a>
-          .
-        </p>
-
-        <h3>How can I contact you?</h3>
-        <p>
-          Email me at <i>skyorbmusic@gmail.com</i>
-        </p>
+        <h2>Web Dev Bookmarks</h2>
+        <p>Easy reference docs for web development.</p>
+        <SubHeading title="Linux Terminal Commands"></SubHeading>
+        <SubHeading title="React"></SubHeading>
+        <SubHeading title="Next.js"></SubHeading>
+        <SubHeading title="Flask"></SubHeading>
       </div>
     </div>
   );
