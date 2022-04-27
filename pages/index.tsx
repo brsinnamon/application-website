@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import SubHeading from "../components/SubHeading";
 
 const Home: NextPage = () => {
@@ -46,9 +47,11 @@ const Home: NextPage = () => {
       <div className="column left">
         <h2>Calculators for Mariners</h2>
         <p>Helper tools for mariners on the job.</p>
-        <a href="/SRACalculatorPage">
-          <SubHeading title="Safety Risk Assessment"></SubHeading>
-        </a>
+        <Link href="/SRACalculatorPage">
+          <a>
+            <SubHeading title="Safety Risk Assessment"></SubHeading>
+          </a>
+        </Link>
         <SubHeading title="Fuel Usage"></SubHeading>
         <SubHeading title="Tide Percentage Springs"></SubHeading>
         <h2>Useful References</h2>
