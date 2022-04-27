@@ -6,13 +6,13 @@ const Home: NextPage = () => {
   return (
     <div id="content">
       <Head>
-        <title>SKY ORB MUSIC</title>
+        <title>Applications</title>
         <meta charSet="utf-8" />
-        <meta name="description" content="Game music composer." />
         <meta
-          name="keywords"
-          content="music, soundtrack, gamemusic, orchestral, gamemusicmaker, game, indie, maker, audio"
+          name="description"
+          content="Web application testing site of apps mariners or maritime professionals."
         />
+        <meta name="keywords" content="maritime, mariner, amsa" />
         <meta name="author" content="Brendan Sinnamon" />
         <meta
           name="viewport"
@@ -25,13 +25,17 @@ const Home: NextPage = () => {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-        <link rel="canonical" href="https://www.skyorbmusic.com" />
+        <link
+          rel="canonical"
+          href="https://application-website-beta.vercel.app/"
+        />
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <div id="header">
-        <h1>SKY ORB: hello game music</h1>
-        <p>Orchestral and electronica music composer for games.</p>
+        <h1>AppMarine</h1>
+        <p>Helper tools for maritime operators and professionals.</p>
+        <p>No signing up, just tools you can use right now.</p>
       </div>
 
       <div className="column left">
